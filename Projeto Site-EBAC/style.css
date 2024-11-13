@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Kanit:wght@600;800;900&family=Roboto&display=swap');
+
+*{
+    box-sizing: content-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(218, 217, 217);
+    font-family: "roboto", serif;
+}
+
+header, h2, #contato h3, input, textarea, button{
+    font-family: "kanit", sans-serif;
+}
+
+header{
+    padding: 30px;
+    background-color: rgb(56, 56, 175);
+}
+
+header h1, header li a{
+    font-weight: normal;
+}
+
+h2{
+    font-size: 38px;
+    font-weight: 800;
+}
+
+body p{
+    margin-left: 25px;
+}
+
+.container{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul li{
+    display: inline;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+header nav ul li:hover{
+    text-decoration: underline;
+    text-decoration-color: aliceblue;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    margin-right: 16px;
+    color: whitesmoke;
+    font-size: 24px;
+}
+
+header .container h1{
+    color: whitesmoke;
+    font-size: 46px;
+}
+
+#introducao h2{
+    margin-bottom: 8px;
+    margin-left: 26px;
+}
+
+#introducao .picture{
+    margin-top: 24px;
+    margin-left: 76px;
+}
+
+#introducao .picture img{
+    width: 500px;
+}
+
+#introducao .container{
+    display: flex;
+}
+
+#introducao .sobre{
+    margin-top: 46px;
+    margin-left: 20x;
+    width: 400px;
+    justify-content: space-between;
+}
+
+#introducao .sobre .lojas img{
+    width: 38px;
+    margin-right: 8px;
+}
+
+#introducao .lojas ul{
+    display: flex;
+    margin-left: 36px;
+    margin-top: 12px;
+}
+#introducao .lojas ul li{
+    display: inline;
+    align-items: center;
+    margin-left: 8px;
+}
+
+#introducao h2{
+    color:rgb(56, 56, 175);
+}
+
+#artigo .container{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#artigo .container{
+    max-width: 1280px;
+    width: 80%;
+    justify-content: center;
+    margin-top: 36px;
+    background-color: rgb(182, 181, 181);
+    border-radius: 8px;
+    border: 2px solid rgb(226, 226, 226);
+}
+
+#artigo p{
+    text-align: center;
+    padding: 8px;
+}
+
+article{
+    max-width: 600px;
+    margin: 10px;
+    border: 1px solid rgb(218, 217, 217);
+    border-radius: 4px;
+}
+
+article h2{
+    padding-left: 28px;
+    padding-top: 8px;
+    margin-left: 46px;
+    font-size: 30px;
+}
+
+.picture{
+    display: flex;
+    justify-content: center;
+}
+
+.picture img{
+    width: 450px;
+    margin: 10px;
+}
+
+#contato .redes-sociais ul li img{
+    width: 40px;
+}
+
+#contato .container{
+    display: block;
+}
+
+#contato .metodos-contato{
+    display: flex;
+    justify-content: space-around;
+}
+
+#contato .redes-sociais ul{
+    align-items: center;
+}
+
+#contato .redes-sociais ul li{
+    display: inline;
+    margin-right: 12px;
+}
+
+#contato .redes-sociais ul li a{
+    text-decoration: none;
+}
+
+#contato form input, textarea, button{
+    display: block;
+    width: 300px;
+    margin-top: 12px;
+    padding: 8px;
+    font-size: medium;
+}
+
+#contato h2{
+    margin-top: 10px;
+    font-size: 46px;
+    font-weight: bolder;
+    color: rgb(56, 56, 175);
+}
+
+#contato h3{
+    font-size: 30px;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: rgb(87, 87, 218);
+}
+
+form textarea{
+    resize: none;
+    height: 150px;
+}
+
+input:focus, textarea:focus{
+    outline-color: rgb(56, 56, 175);
+}
+
+form button{
+    background-color: rgb(56, 56, 175);
+    color: aliceblue;
+    border: none;
+    margin-bottom: 12px;
+}
+
+form button:hover{
+    background-color: rgb(87, 87, 218);
+    cursor: pointer;
+}
+
+.roboto-regular {
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+footer{
+    padding: 15px;
+    background-color: rgb(56, 56, 175);
+    color: aliceblue;
+}
+
+footer .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer p{
+    font-weight: 600;
+}
+
+.kanit-semibold {
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+  
+.kanit-extrabold {
+    font-family: "Kanit", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+  
+.kanit-black {
+    font-family: "Kanit", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.roboto-regular {
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
